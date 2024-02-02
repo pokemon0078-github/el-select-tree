@@ -1,3 +1,12 @@
+## 2024.2.2 增加 打包umd.js 用于浏览器运行（引入cdn方式）模式下开发
+```
+    <script src="/idcStatic/el-select-tree-2.1.1-beta.6/dist/el-select-tree.umd.js"></script>
+    <script>
+        Vue.use(window.ElSelectTree.default); //全局注册ElSelectTree
+        Vue.use(window.ElSelectTree.ElSelectTreeVirtual); ////ElSelectTreeVirtual
+    </script>
+```
+
 # el-select-tree
 
 ElementUI's el-select combined with el-tree.
